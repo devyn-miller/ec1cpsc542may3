@@ -25,7 +25,7 @@
 
 ## Code Repository
 
-- **GitHub Repository:** [assignment2-cpsc-542](https://github.com/devyn-miller/assignment2-cpsc-542.git)
+- **GitHub Repository:** [Assignment 2](https://github.com/devyn-miller/the-final-assignment2-cpsc542.git)
 
 # Additional notes below — please read.
 1. The u-net model was too large to push to github and can be found at the following link: https://drive.google.com/file/d/1zoP3UmzBmihgdkKlurVVzK1fd9ylbaqz/view?usp=sharing
