@@ -30,5 +30,5 @@
 # Additional notes below — please read.
 1. The u-net model was too large to push to github and can be found at the following link: https://drive.google.com/file/d/1zoP3UmzBmihgdkKlurVVzK1fd9ylbaqz/view?usp=sharing
 ![Alt text](model.png?raw=true)
-2. All of the plots and figures for this project can be found in the Jupyter notebook entitled `main.ipynb`. The report only contains the metrics table and the graphs for the loss function and accuracy.
-
+2. All of the plots and figures (EDA, grad-CAM, etc) for this project can be found in the Jupyter notebook entitled `main.ipynb`. The report only contains the metrics table and graphs to show model performance.
+3. As described in my writeup, I modularized things from an initial Jupyter notebook that contained everything. The png images saved in the `/figures` folder are from that inital ipynb, while those in `main.ipynb` were generated when running the modularized project.
