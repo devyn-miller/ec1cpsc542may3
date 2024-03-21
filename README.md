@@ -35,6 +35,26 @@ runme:
 
 This project encapsulates my journey in developing an image segmentation pipeline that leverages deep learning and computer vision techniques. I developed a comprehensive pipeline for the segmentation of images from the Oxford-IIIT Pet Dataset, focusing on accurately distinguishing pets from their backgrounds across various settings and poses. This project harnesses the power of TensorFlow and Keras libraries to achieve its goals. Through careful organization and documentation, I aimed to create a transparent and reproducible workflow that addresses the challenges of pet image segmentation. 
 
+## Project Structure
+
+- `README.md`: Project overview, setup instructions, and additional notes.
+- `src`: Source code for the project.
+  - `preprocessing.py`: Contains functions for data loading and preprocessing.
+  - `augmentation.py`: Implements data augmentation techniques.
+  - `model.py`: Defines the U-Net model architecture.
+  - `training.py`: Manages the model training process.
+  - `metrics.py`: Evaluation metrics and performance analysis.
+  - `grad_cam.py`: Grad-CAM visualizations for model interpretation.
+- `figures`: Directory for storing static figures and plots.
+  - Various PNG images from initial exploratory data analysis.
+  - `model_structures`: PNG Images for various model architectures I experimented with.
+- `main.ipynb`: Main notebook with project walkthrough, including EDA and results.
+- `model_history.json`: Stores the training history of the model for analysis.
+- `models`: Due to size constraints, the trained model is hosted externally. A link is provided in the repository for access.
+
+
+
+
 ### Data Preprocessing
 
 I started by preprocessing the data to make it suitable for training a deep learning model. This involved loading the dataset using TensorFlow Datasets (TFDS), normalizing the pixel values of the images to the range [0, 1], and resizing both the images and their corresponding segmentation masks to a uniform dimension of 128x128 pixels. The preprocessing steps are encapsulated in the `preprocess` function within `src/preprocessing.py`.
@@ -63,55 +83,6 @@ Post-training, the model's performance is evaluated using metrics such as accura
 ### Conclusion
 
 This project demonstrates a structured approach to solving an image segmentation problem using deep learning. By carefully preprocessing the data, augmenting it to enhance model robustness, and employing a powerful U-Net architecture, I was able to achieve precise segmentation of pets from their backgrounds. The project's modular design ensures each component is easily understandable and modifiable for future enhancements or adaptations to similar tasks.
-
-# Project Structure
-
-Below is the tree structure of the project repository, detailing the organization and contents of each file and directory:
-
-the-final-assignment2-cpsc542
-
-├── README.md                   # Project overview, setup instructions, and additional notes
-
-├── src                         # Source code for the project
-
-│   ├── preprocessing.py        # Contains functions for data loading and preprocessing
-
-│   ├── augmentation.py         # Implements data augmentation techniques
-
-│   ├── model.py                # Defines the U-Net model architecture
-
-│   ├── training.py             # Manages the model training process
-
-│   ├── metrics.py              # Evaluation metrics and performance analysis
-
-│   └── grad_cam.py             # Grad-CAM visualizations for model interpretation
-
-├── figures                     # Directory for storing static figures and plots
-
-│   └── ...                     # Various PNG images from initial exploratory data analysis
-
-│   └── main.ipynb              # Main notebook with project walkthrough, including EDA and results
-
-└── requirements.txt            # Lists the project's Python dependencies for replication
-
-
-Each component of the project is modularized, allowing for easy understanding and modification. The `src` directory contains the core logic for preprocessing, augmentation, model definition, training, and evaluation. Static figures generated during the project are stored in the `figures` directory. The `requirements.txt` file lists all the necessary Python packages to ensure the project can be replicated in different environments.
-
-
-- `README.md`: Project overview, setup instructions, and additional notes.
-- `src`: Source code for the project.
-  - `preprocessing.py`: Contains functions for data loading and preprocessing.
-  - `augmentation.py`: Implements data augmentation techniques.
-  - `model.py`: Defines the U-Net model architecture.
-  - `training.py`: Manages the model training process.
-  - `metrics.py`: Evaluation metrics and performance analysis.
-  - `grad_cam.py`: Grad-CAM visualizations for model interpretation.
-- `figures`: Directory for storing static figures and plots.
-  - Various PNG images from initial exploratory data analysis.
-  - `model_structures`: PNG Images for various model architectures I experimented with.
-- `main.ipynb`: Main notebook with project walkthrough, including EDA and results.
-- `model_history.json`: Stores the training history of the model for analysis.
-- `models`: Due to size constraints, the trained model is hosted externally. A link is provided in the repository for access.
 
 # Additional notes below — please read.
 
