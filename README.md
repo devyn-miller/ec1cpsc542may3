@@ -33,7 +33,7 @@ runme:
 
 ## **Project Organization and Pipeline Overview**
 
-This project encapsulates my journey in developing an image segmentation pipeline that leverages deep learning and computer vision techniques. I developed a comprehensive pipeline for the segmentation of images from the Oxford-IIIT Pet Dataset, focusing on accurately distinguishing pets from their backgrounds across various settings and poses. This project harnesses the power of TensorFlow and Keras libraries to achieve its goals. Through careful organization and documentation, I aimed to create a transparent and reproducible workflow that addresses the challenges of pet image segmentation. 
+This project develops an image segmentation pipeline that leverages deep learning and computer vision techniques using images from the Oxford-IIIT Pet Dataset, focusing on accurately distinguishing pets from their backgrounds across various settings and poses. I used TensorFlow and Keras libraries. Through careful organization and documentation, I aimed to create a transparent and reproducible workflow that addresses the challenges of pet image segmentation. 
 
 ## Project Structure
 
@@ -50,7 +50,7 @@ This project encapsulates my journey in developing an image segmentation pipelin
   - `model_structures`: PNG Images for various model architectures I experimented with.
 - `main.ipynb`: Main notebook with project walkthrough, including EDA and results.
 - `model_history.json`: Stores the training history of the model for analysis.
-- `models`: Due to size constraints, the trained model is hosted externally. A link is provided in the repository for access.
+- `models`: Due to size constraints, the trained model is hosted [externally](https://drive.google.com/file/d/1zoP3UmzBmihgdkKlurVVzK1fd9ylbaqz/view?usp=sharing).
 
 
 
@@ -86,7 +86,7 @@ This project demonstrates a structured approach to solving an image segmentation
 
 # Additional notes below — please read.
 
-1. The u-net model was too large to push to github and can be found at the following link: https://drive.google.com/file/d/1zoP3UmzBmihgdkKlurVVzK1fd9ylbaqz/view?usp=sharing
+1. The u-net model was too large to push to github and can be found [here](https://drive.google.com/file/d/1zoP3UmzBmihgdkKlurVVzK1fd9ylbaqz/view?usp=sharing).
    ![Alt text](model.png?raw=true)
 2. All of the plots and figures (EDA, grad-CAM, etc) for this project can be found in the Jupyter notebook entitled `main.ipynb`. The report only contains the metrics table and graphs to show model performance.
 3. As described in my writeup, I modularized things from an initial Jupyter notebook that contained everything. The png images saved in the `/figures` folder are from that inital ipynb, while those in `main.ipynb` were generated when running the modularized project.
