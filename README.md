@@ -20,6 +20,7 @@ runme:
 - **Resources used:**
    - [The Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/%7Evgg/data/pets/)
    - [oxford_iiit_pet](https://www.tensorflow.org/datasets/catalog/oxford_iiit_pet)
+   - Keras's pretrained MobileNetV2 for the base model
    - Copilot
    - Perplexity
 
