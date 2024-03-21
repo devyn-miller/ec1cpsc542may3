@@ -50,6 +50,7 @@ This project develops an image segmentation pipeline that leverages deep learnin
   - Various PNG images from initial exploratory data analysis.
   - `model_structures`: PNG Images for various model architectures I experimented with.
 - `main.ipynb`: Main notebook with project walkthrough, including EDA and results.
+- `eda.ipynb`: Additional EDA not displayed in `main.ipynb`
 - `model_history.json`: Stores the training history of the model for analysis.
 - `models`: Due to size constraints, the trained model is hosted [externally](https://drive.google.com/file/d/1zoP3UmzBmihgdkKlurVVzK1fd9ylbaqz/view?usp=sharing).
 
@@ -91,3 +92,4 @@ This project demonstrates a structured approach to solving an image segmentation
    ![Alt text](figures/model_structures/model.png?raw=true)
 2. All of the plots and figures (EDA, grad-CAM, etc) for this project can be found in the Jupyter notebook entitled `main.ipynb`. The report only contains the metrics table and graphs to show model performance.
 3. As described in my writeup, I modularized things from an initial Jupyter notebook that contained everything. The png images saved in the `/figures` folder are from that inital ipynb, while those in `main.ipynb` were generated when running the modularized project.
+4. I forgot to include part of the EDA in my pipeline, but it is rather simple and can be found in the Jupyter notebook entitled `eda.ipynb`
